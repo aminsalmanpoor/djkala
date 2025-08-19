@@ -1,0 +1,23 @@
+.towdiv {
+  width: 100%;
+  height: 300px;
+  div {
+    width: 65%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 15px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+
+    .towdiv-right,
+    .towdiv-left {
+      width: 50%;
+
+      img {
+        width: 100%;
+        border-radius: 16px;
+      }
+    }
+  }
+}

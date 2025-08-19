@@ -1,0 +1,105 @@
+.sale {
+  width: 100%;
+  height: 810px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 100px;
+  .sale-center {
+    width: 65%;
+    height: 100%;
+    border: 1px solid lightgray;
+    border-radius: 16px;
+    padding: 10px;
+    .sale-center-top {
+      width: 100%;
+      height: 10%;
+      display: flex;
+      justify-content: center;
+      h3 {
+        font-family: var(--font-family);
+        font-size: 20px;
+        color: black;
+        padding-top: 25px;
+      }
+      img {
+        width: 30px;
+        height: 30px;
+        padding: 25px 8px;
+      }
+    }
+    .sale-center-item {
+      width: 100%;
+      height: 89%;
+      .sale-center-item-top,
+      .sale-center-item-center,
+      .sale-center-item-bottom {
+        width: 100%;
+        height: 33%;
+        margin-top: 5px;
+        .sale-flex {
+          display: flex;
+          width: 100%;
+          height: 100%;
+          display: flex;
+          justify-content: center;
+          div {
+            width: 16.6%;
+            height: 100%;
+            margin: 3px;
+            box-sizing: border-box;
+
+            img {
+              width: 150px;
+              height: 150px;
+              display: block;
+              margin: 0 auto;
+            }
+            a {
+              text-decoration: none;
+
+              .sale-takhfif {
+                width: 100%;
+                height: 10%;
+
+                display: flex;
+                justify-content: space-between;
+                flex-direction: row-reverse;
+                .sale-div1 {
+                  width: fit-content;
+                  height: 100%;
+                  display: flex;
+                  font-family: var(--font-number);
+                  font-size: 16px;
+                  direction: ltr;
+                  padding-left: 10px;
+                  img {
+                    width: 16px;
+                    height: 16px;
+                  }
+                }
+                .sale-darsad {
+                  height: fit-content;
+                  color: whitesmoke;
+                  background-color: #d32f2f;
+                  border-radius: 8px;
+                  font-family: var(--font-number);
+                  display: block;
+                  align-items: center;
+                }
+              }
+              .sale-real {
+                font-family: var(--font-number);
+                font-size: 14px;
+                color: grey;
+                text-decoration: line-through;
+                width: 80%;
+                text-align: left;
+                margin-right: 20px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

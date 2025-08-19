@@ -1,0 +1,34 @@
+.category {
+  width: 100%;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  .category-center {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    column-gap: 15px;
+    .category-center-item{
+        width: fit-content;
+        padding: 20px 20px;
+        a{
+          text-decoration: none;
+        }  
+       img{
+         width: 52px;
+        height: 52px;
+        display: block;
+        margin: 20px auto;
+       }
+       h2{
+        font-family: Yekan;
+        font-size: 12px;
+        margin: 0 auto;
+        text-align: center;
+        font-weight: normal;
+        color: black;
+       }
+    }
+  }
+}

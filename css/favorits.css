@@ -1,0 +1,97 @@
+.favorits {
+  width: 100%;
+  height: 400px;
+  margin-bottom: 100px;
+  .favorits-center {
+    width: 65%;
+    height: 100%;
+    margin: 0 auto;
+    border: 1px solid lightgray;
+    border-radius: 16px;
+    .favorits-center-top {
+      display: flex;
+      .favorits-h3 {
+        display: flex;
+        padding: 20px;
+        width: 90%;
+        justify-content: center;
+        h3 {
+          font-family: var(--font-family);
+          font-size: 20px;
+        }
+      }
+      .favorits-a {
+        width: 10%;
+        padding: 20px;
+        direction: ltr;
+
+        a {
+          text-decoration: none;
+          color: #3ed1eb;
+          font-family: var(--font-family);
+          font-size: 15px;
+          font-weight: bold;
+        }
+      }
+    }
+    .favorits-center-item {
+      width: 99.9%;
+      height: 330px;
+      .swiper {
+        width: 100%;
+        height: 100%;
+      }
+
+      .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .favorits-center-swiper-item {
+          width: 100%;
+          height: 100%;
+          .favorits-center-swiper-item-product{
+            width: 100%;
+            height: 33%;
+            display: flex;
+            align-items: center;
+            column-gap: 10px;
+            img{
+                width: 86px;
+                height: 86px;
+                margin-right: 10px;
+
+            }
+            span{
+                font-family: var(--font-number);
+                color: #3ed1eb;
+                font-size: 40px;
+
+            }
+            p{
+                font-family: var(--font-family);
+                font-size: 14px;
+                display: -webkit-box;
+                -webkit-box-orient:vertical;
+                box-orient:vertical;
+                -webkit-line-clamp: 2;
+                line-clamp: 2;
+                overflow: hidden;
+                padding-top: 20px;
+            }
+            
+          }
+        }
+      }
+
+      .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+  }
+}
