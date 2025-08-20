@@ -1,15 +1,21 @@
 {
   "name": "djkala2",
   "version": "1.0.0",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aminsalmanpoor/djkala.git"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
-  "dependencies": {
-    "swiper": "^11.2.10"
-  }
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/aminsalmanpoor/djkala/issues"
+  },
+  "homepage": "https://github.com/aminsalmanpoor/djkala#readme"
 }
